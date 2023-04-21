@@ -16,7 +16,7 @@ body{
     background-color: #226401;
     display: flex;
     width: 100%;
-    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 10px 0 rgb(0, 0, 0);
     position: fixed;
     height: 15%;
     justify-content: center;
@@ -66,7 +66,7 @@ aside > strong > h1 {
     color: #fff;
     padding-left: 18px;
     background-color: #0000007a;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     margin-top: 13px;
     height: 35px;
     padding-top: 4px;
@@ -81,9 +81,9 @@ aside {
     width: 360px;
     background-color: #226401;
     float: left;
-    position: fixed;  
-    margin-top: 7.7%;
-    height: 590px;
+    position: fixed;
+    margin-top: 7.6%;
+    height: auto;
     box-shadow: 0px 10px 5px 5px rgba(0, 79, 20, 0.726);
 }    
 
@@ -93,32 +93,44 @@ aside {
 
 nav {
     float: right;
-    width: 962px;
-    height: 4553px;
+    width: 900px;
+    height: auto;
     margin-top: 8%;
-    background-color: #fff;
-    
+    background-color: #ffffff;
+    margin-bottom: 40px;
 }
 
 nav > h2{
     font-size: 60px;
     color: #000;
-    margin: 40px 80px 20px 208px;
+    margin: 40px 80px 20px 160px;
 }
 
 nav > img {
     height: 450px;
     width: 640px;
-    margin-left: 22%;
+    margin-left: 17%;
     margin-top: 40px;
 }
 
 nav > strong > p {
-  margin-left: 25%;
+  margin-left: 19%;
 }
 
-.Bobinado{
-    margin-top: 50px;
+.publicidad {
+    width: 750px;
+    margin-left: 10%;
+}
+
+.acrostico {
+    color: #000000;
+    font-size: 20px;
+}
+
+.acrosticoi {
+    color: #000000;
+    font-size: 20px;
+    margin-left: 0.5%; 
 }
 
 /* END OF NAV BOX*/
